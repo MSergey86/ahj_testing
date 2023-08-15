@@ -20,6 +20,7 @@ export function paymentSystem(cardNumber) {
   if (cardNumber.startsWith('30')) {
     return 6; // diners
   }
+  return false;
 }
 
 export function validateCardNumber(cardNumber) {
